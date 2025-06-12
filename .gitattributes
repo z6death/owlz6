@@ -1,0 +1,14 @@
+*.bin filter=lfs diff=lfs merge=lfs -text
+*.AppImage filter=lfs diff=lfs merge=lfs -text
+*.pak filter=lfs diff=lfs merge=lfs -text
+*.pack filter=lfs diff=lfs merge=lfs -text
+*.so filter=lfs diff=lfs merge=lfs -text
+*.dat filter=lfs diff=lfs merge=lfs -text
+*.asar filter=lfs diff=lfs merge=lfs -text
+.bin filter=lfs diff=lfs merge=lfs -text
+.AppImage filter=lfs diff=lfs merge=lfs -text
+.pak filter=lfs diff=lfs merge=lfs -text
+/app/freetube/freetube filter=lfs diff=lfs merge=lfs -text
+/app/yt-dlp_linux filter=lfs diff=lfs merge=lfs -text
+/app/balenaEtcher-linux-x64/balena-etcher filter=lfs diff=lfs merge=lfs -text
+/app/balenaEtcher-linux-x64/resources/etcher-util filter=lfs diff=lfs merge=lfs -text

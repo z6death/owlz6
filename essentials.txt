@@ -1,0 +1,248 @@
+() knowledge
+	|
+	|____networking
+	|
+	|____tools
+	|
+	|____security fandamentals
+	|
+	|____operating systems
+
+() networking
+    |
+	|____basic netorking:
+	|		(https://hackproofhacks.com/ethical-hacking-series-networking-ips-ports/)
+	|		(https://www.youtube.com/playlist?list=PLBlnK6fEyqRgMCUAG0XRw78UA8qnv6jEx)
+	| 
+	|____ip_address and subnetting
+	|
+	|____protocols
+	|		|
+	|		|____TC/IP
+	|		|
+	|		|____HTTP & HTTPS
+	|		|
+	|		|____FTP
+	|		|
+	|		|____ WireShark
+
+	
+()lab
+	|
+	|____seetting up lap:
+			(https://hackproofhacks.com/hacking-series-kali-linux-dvwa-on-virtualbox/)			
+
+			
+() programing
+	|
+	|____any language
+	|
+	|____bash
+	|		(https://hackproofhacks.com/ethical-hacking-series-command-line-tools/)
+	|		(https://www.learnshell.org/)
+	|
+	|____HTML & JavaScript
+
+
+() linux
+	|
+	|____file navigation
+	|
+	|____permission and proccesses
+	|
+	|____file editing
+
+	
+{} security concepts
+	|
+	|____encryption
+	|
+	|____authentication
+	|
+	|____authorization
+	|
+	|____sql enjection
+	|			(https://hackproofhacks.com/comprehensive-guide-to-sqlmap/)
+
+
+() tools
+	|
+	|____Nmap
+	|		(https://hackproofhacks.com/ethical-hacking-series-the-ultimate-nmap-guide/)
+	|
+	|____Netcat
+	|		(https://hackproofhacks.com/what-is-netcat-and-its-practical-uses/)
+	|
+	|____tcpdump
+
+
+() reconnaissance(recon)
+	|
+	|____(https://hackproofhacks.com/ethical-hacking-series-reconnaissance/)
+	|
+	|____passive recon
+	|
+	|____active recon
+	|
+	|____recon tools
+	|		|
+	|		|____Whois
+	|		|
+	|		|____Nmap
+	|		|
+	|		|____Maltego
+
+
+() gatherring information
+	|
+	|____Domain and IP Analysis
+	|
+	|____Network Scanning with Nmap
+	|
+	|____Subdomain Enumeration
+	|
+	|____Social Media and Public Data
+	|
+	|____Email Harvesting
+
+
+() vulenerability
+	|		(https://hackproofhacks.com/metasploit-exploitation-hacking-series-part-7/)
+	|
+	|____Scanning
+	|		|
+	|		|____tools
+	|		|		|
+	|		|		|____Nessus
+	|		|		|		(https://www.tenable.com/products/nessus)
+	|		|		|
+	|		|		|____OpenVas
+	|		|		|		(https://www.openvas.org/)
+	|		|		|
+	|		|		|____Nikto
+	|		|		|		(https://www.kali.org/tools/nikto/)
+	|		|
+	|		|___steps of vulnerability
+	|		|		|
+	|		|		|____identify the target
+	|		|		|
+	|		|		|____run the vulnerability scan
+	|		|		|
+	|		|		|____analyze the scan report
+	|
+	|
+	|____Exploitation
+	|		|
+	|		|____tools
+	|		|		|
+	|		|		|____Metaspoilt
+	|		|		|
+	|		|		|____SQLmap
+	|		|		|		(https://hackproofhacks.com/comprehensive-guide-to-sqlmap/)
+	|		|		|
+	|		|		|____Jhon the Ripper
+	|		|		|		(https://hackproofhacks.com/password-cracking-with-john-the-ripper-commands/)
+	|		|
+	|		|
+	|		|____step of exploitation
+	|		|		|
+	|		|		|____Research the vulnerability
+	|		|		|
+	|		|		|____Choose an exploit
+	|		|		|
+	|		|		|____Test the Exploit
+	|		|		|
+	|		|		|____Maintain Logs and Document Findings
+
+
+() Social Engineering
+	|
+	|____tactics
+	|		|
+	|		|____phishing
+	|		|
+	|		|____pretexting
+	|		|
+	|		|____baiting
+	|		|
+	|		|____tailgaitng
+	|
+	|
+	|____Social Engineering Skills
+	|		|
+	|		|____human psycology
+	|		|
+	|		|____communication skills
+	|		|
+	|		|____Body Language and Voice tone
+
+() Post-Exploitation
+	|
+	|____key techniques
+	|		|
+	|		|____Privilege Escalation
+	|		|
+	|		|____Persistense
+	|		|
+	|		|____Data Exfiltration
+	|		|
+	|		|____Network recon
+	|		|
+	|		|____Covering Tracks
+	|
+	|
+	|____steps to learn 
+	|		|
+	|		|____DvWA
+	|		|		(https://hackproofhacks.com/hacking-series-kali-linux-dvwa-on-virtualbox/)
+	|		|
+	|		|____How to setup persistence
+	|		|		(https://hackproofhacks.com/3-ways-of-creating-a-persistent-backdoor/)	
+	|		|
+	|		|____Data Exfiltration methos(NetCat)
+	|		|
+	|		|____Enternal Network recon(Nmap,Netdicover)
+	|		|
+	|		|____log cleaning techniques
+
+
+() Advanced Web Application Attacks
+	|
+	|____key advanced attacks
+	|		|
+	|		|____SQL injection (SQLi)
+	|		|
+	|		|____Cross-Site Scripting (XSS)
+	|		|
+	|		|____Cross-Site Request Forgery (CSRF)
+	|		|
+	|		|____Server_Side Request Forgery (SSRF)
+	|		|
+	|		|____Remote File Inclusion (RFI)
+	|
+	|
+	|____Steps to learn
+	|		|
+	|		|____Advanced SQLI Techniques
+	|		|
+	|		|____Master XSS payload
+	|		|
+	|		|____Performing CSRF Attacks With Custom Scripts
+	|		|
+	|		|____Explore SSRF on internal resource
+	|		|
+	|		|____RFI in a Controlled Environment
+	|
+	|
+	|____tools for parctice
+	|		|
+	|		|____Burp Suite
+	|		|
+	|		|____OWASP ZAP
+	|		|
+	|		|____SQLmap
+
+
+TryHackMe pathways
+	|____(https://tryhackme.com/path/outline/introtocyber)
+	|____(https://tryhackme.com/path/outline/jrpenetrationtester)

@@ -1,0 +1,4 @@
+owner: FreeTubeApp
+repo: FreeTube
+provider: github
+updaterCacheDirName: freetube-updater
