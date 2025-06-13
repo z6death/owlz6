@@ -1,0 +1,72 @@
+// to get this info mod+shift+t
+$mod = alt
+
+app_key_shortcuts:
+
+//each of this key start with $mod like: mod+a/$mod+shift+a
+
+brave = b
+note = n
+nvim = e
+nvim(opening in ~) = shift+e
+pipes = x
+pavu = p
+krita = g
+zathura = shift+z
+files = shift+f
+btop = shift+s
+screenshot = shift+p
+cava = c
+menu = d
+kitty = enter
+focus.mp4 = shift+g
+cbonsai = i
+termdown = t
+cvls = shift+c
+Zen = z
+tgpt (ai) = a
+bluetooth/blue-manager = shift+b
+cmatrix = shift+x
+virt-manager = shift+v
+container flow:(moving_key: h=left,j=down,k=up,l=right)
+layout = u
+links = y
+tlp = shift+o
+
+
+move focus = $mod+moving_key
+move it a place = $mod+shift+moving_key
+spliting_container = mod+v/s (v for verticle and s for horizontal)
+focus_child = shift+n
+focus_parent = a
+
+workplace flow:
+
+// Z={x: 1 <= x <= 10}
+
+create/move_workplace = mod$+Z
+move_container_to_diffrent_workplace= $mod+shift+Z
+
+other command:
+
+disable and enable mouse = m
+full_screen = f
+floating_toggle = shift+space
+restart = shift+r
+exit = shift+q
+resize = r
+reload_config = y
+lock = shift+m
+
+vlume control:
+
+increase = up arrow
+decrease = down arrow
+
+used keys = a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,v,y,z
+
+shift = a,b,c,e,f,g,o,p,s,t,x,w,v,z --- (app) | h,j,k,l --(container moveing) ,m,n,q,r,space
+not_shift = d
+
+normal = a,b,c,d,e,f,g,o,p,t,x,y,z --(app), h,j,k,l --(focus moving) ,i,m,r,,s,u,v
+not_normal = q,w

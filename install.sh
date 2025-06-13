@@ -22,5 +22,14 @@ cp -r owlz6/.mpd
 cp -r owlz6/.ncmpcpp
 cp -r owlz6/* ~
 
-betterlockscreen -u ~/img/png_img/greenify.png
+sudo rm -r ~/.config/kitty  
+sudo rm -r ~/.config/i3
+sudo rm -r ~/.config/nvim
 
+cd ~
+git clone https://github.com/z6death/kitty_z6.git ~/.config/kitty
+git clone https://github.com/z6death/z3.git ~/.config/i3
+git clone https://github.com/z6death/zvim.git ~/.config/nvim
+git clone https://github.com/z6death/z6_sh.git
+
+betterlockscreen -u ~/img/png_img/greenify.png
