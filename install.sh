@@ -33,5 +33,6 @@ git clone https://github.com/z6death/zvim.git ~/.config/nvim
 git clone https://github.com/z6death/z6_sh.git
 chmod +x z6_sh/*.sh
 ~/z6_sh/lichess-cli-intall.sh
+pix install cli-chess
 
 betterlockscreen -u ~/img/png_img/greenify.png
