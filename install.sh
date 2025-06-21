@@ -31,8 +31,13 @@ git clone https://github.com/z6death/kitty_z6.git ~/.config/kitty
 git clone https://github.com/z6death/z3.git ~/.config/i3
 git clone https://github.com/z6death/zvim.git ~/.config/nvim
 git clone https://github.com/z6death/z6_sh.git
+
 chmod +x z6_sh/*.sh
+
 ~/z6_sh/lichess-cli-intall.sh
+
 pix install cli-chess
+
+source ~/.bashrc
 
 betterlockscreen -u ~/img/png_img/greenify.png
